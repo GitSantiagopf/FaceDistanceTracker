@@ -33,9 +33,10 @@ class DistanceCamera:
                 cvzone.putTextRect(frame, f'Distancia: {round(d,1)}cm', (face[10][0]-125, face[10][1]-50),colorT=(255, 255, 255), 
                            colorR=(255, 0, 0), scale = 2)
                 
-                yield frame
+                return frame
 
     def __del__(self):
         if hasattr(self, 'cap') and self.cap.isOpened():
             self.cap.release()  # Libera la cámara
+
 
