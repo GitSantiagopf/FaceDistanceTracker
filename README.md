@@ -1,7 +1,5 @@
 # Live Distance Measurement (Medición de Distancia en Vivo)
 
-## English
-
 ### Description
 This project implements a real-time distance measurement system using a webcam and face mesh technology. The script `live_distance_measurement.py` captures video from a webcam and utilizes the `DistanceCamera` class to calculate the distance from the camera to a person's face.
 
@@ -9,18 +7,21 @@ This project implements a real-time distance measurement system using a webcam a
 Follow these steps to set up the project environment:
 
 1. Clone the repository:
-git clone [<your-repository-url>](https://github.com/GitSantiagopf/FaceDistanceTracker)
+
+git clone [<https://github.com/GitSantiagopf/FaceDistanceTracker>]
 
 2. Navigate to the project directory:
+
 cd FaceDistanceTracker
 
 3. Install the required dependencies:
+
 pip install -r requirements.txt
 
 ### Usage
 Execute the script to run the application:
 python live_distance_measurement.py
-Refer to the `live_distance_web` for a demonstration of the application in action.
+
 For a demonstration of the application in action, see the following GIF:
 ![Live Distance Measurement Demo](live_distance_demo.gif)
 
